@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import '../speech.js';
 
 
 class TextInput extends React.Component {
@@ -65,6 +65,7 @@ class TextInput extends React.Component {
                   ref={this.props.focusref}
                   className="BrailleInput">{this.state.txt}</textarea>
               </form>
+              <button id="speechBtn">Lancer la reconnaissance</button>
           </div>
         );
     }
