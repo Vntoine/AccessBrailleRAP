@@ -11,15 +11,26 @@ body {
 }
 
 #speechBtn{
-  margin-block: 1rem;
-  padding: .25rem;
-  border: .25px solid black;
-  border-radius: .25rem;
+    margin-top: 1rem;
+    padding: .25rem;
+    border: .25px solid black;
+    border-radius: .25rem;
+}
+#speechBtn:hover{
+    box-shadow: 1px 3px 5px grey;
+}
+#speechBtn:active{
+    box-shadow: none;
+}
+  
+.valid{
+    background-color: lightgreen;
 }
 
-.valid{
-  background-color: lightgreen;
+.listening{
+    background-color: yellow;
 }
+
 
 
 .menu_font {
