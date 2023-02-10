@@ -3,7 +3,6 @@ export default function reconnaissance(){
     var SpeechGrammarList = SpeechGrammarList || window.webkitSpeechGrammarList;
     var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent;
     var recognition = new SpeechRecognition();
-    var isActivated = false;
 
     const textarea = document.getElementsByClassName("BrailleInput")[0];
     const speechBtn = document.getElementById("speechBtn");
@@ -18,9 +17,6 @@ export default function reconnaissance(){
     recognition.lang = 'fr';
     recognition.interimResults = false;
     recognition.maxAlternatives = 1;
-
-    //recognition.start();
-    console.log('Première écoute...');
 
     speechBtn.onclick = function(){
         recognition.start();
