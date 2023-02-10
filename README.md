@@ -63,4 +63,4 @@ check `dist/AccessBrailleRAP.exe`
 
 # 📋 About this fork
 
-Cette "fork" a pour objectif l'ajout d'un module de reconnaissance vocale afin de permettre à l'utilisateur de pouvoir lancer l'impression sans interaction avec l'interface de l'application. Pour le moment, cela se fait avec l'API Web Speech en JavaScript.
+Cette "fork" a pour objectif d'ajouter un module de reconnaissance vocale afin de permettre à l'utilisateur de lancer une impression sans interaction avec l'interface de l'application. Pour le moment, cela se fait avec l'API Web Speech en JavaScript.
